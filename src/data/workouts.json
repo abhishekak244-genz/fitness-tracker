@@ -1,0 +1,542 @@
+{
+  "exercises": [
+    {
+      "id": "e1",
+      "name": "Bench Press",
+      "category": "Chest",
+      "primaryMuscle": "Pectoralis Major",
+      "secondaryMuscles": ["Anterior Deltoid", "Triceps"],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell",
+      "description": "The fundamental compound movement for chest development. Lie flat on bench, lower bar to chest with control, press explosively.",
+      "tips": ["Keep shoulder blades retracted", "Drive feet into floor", "Maintain arch in lower back"]
+    },
+    {
+      "id": "e2",
+      "name": "Incline Dumbbell Press",
+      "category": "Chest",
+      "primaryMuscle": "Upper Pectoralis",
+      "secondaryMuscles": ["Anterior Deltoid", "Triceps"],
+      "difficulty": "Intermediate",
+      "equipment": "Dumbbells",
+      "description": "Target upper chest with dumbbells at 30–45° incline. Provides greater range of motion than barbell variation.",
+      "tips": ["Set bench to 30-45 degrees", "Control the descent", "Press at slight angle inward"]
+    },
+    {
+      "id": "e3",
+      "name": "Cable Fly",
+      "category": "Chest",
+      "primaryMuscle": "Pectoralis Major",
+      "secondaryMuscles": ["Anterior Deltoid"],
+      "difficulty": "Beginner",
+      "equipment": "Cable Machine",
+      "description": "Isolation exercise emphasizing the stretch and contraction of the chest. Set cables at shoulder height.",
+      "tips": ["Keep slight bend in elbows", "Focus on chest squeeze", "Control through full range"]
+    },
+    {
+      "id": "e4",
+      "name": "Deadlift",
+      "category": "Back",
+      "primaryMuscle": "Erector Spinae",
+      "secondaryMuscles": ["Glutes", "Hamstrings", "Lats", "Traps"],
+      "difficulty": "Advanced",
+      "equipment": "Barbell",
+      "description": "The king of compound movements. Builds total-body strength with emphasis on posterior chain.",
+      "tips": ["Hinge at hips, not squat", "Bar stays over mid-foot", "Brace core before lift"]
+    },
+    {
+      "id": "e5",
+      "name": "Pull-Up",
+      "category": "Back",
+      "primaryMuscle": "Latissimus Dorsi",
+      "secondaryMuscles": ["Biceps", "Rear Deltoid", "Rhomboids"],
+      "difficulty": "Intermediate",
+      "equipment": "Pull-Up Bar",
+      "description": "Bodyweight classic for back width. Full hang to chin over bar.",
+      "tips": ["Initiate with shoulder depression", "Drive elbows to hips", "Full dead hang at bottom"]
+    },
+    {
+      "id": "e6",
+      "name": "Barbell Row",
+      "category": "Back",
+      "primaryMuscle": "Latissimus Dorsi",
+      "secondaryMuscles": ["Biceps", "Rear Deltoid", "Erector Spinae"],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell",
+      "description": "Compound row for back thickness and strength. Hinge forward and pull bar to lower chest.",
+      "tips": ["Keep spine neutral", "Pull elbows back not up", "Pause at top contraction"]
+    },
+    {
+      "id": "e7",
+      "name": "Seated Cable Row",
+      "category": "Back",
+      "primaryMuscle": "Middle Trapezius",
+      "secondaryMuscles": ["Latissimus Dorsi", "Biceps", "Rhomboids"],
+      "difficulty": "Beginner",
+      "equipment": "Cable Machine",
+      "description": "Horizontal pulling movement for back thickness and posture improvement.",
+      "tips": ["Sit tall with neutral spine", "Squeeze shoulder blades together", "Avoid rounding forward"]
+    },
+    {
+      "id": "e8",
+      "name": "Squat",
+      "category": "Legs",
+      "primaryMuscle": "Quadriceps",
+      "secondaryMuscles": ["Glutes", "Hamstrings", "Adductors", "Core"],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell",
+      "description": "The foundational lower body movement. Bar on upper traps, squat to parallel or below.",
+      "tips": ["Knees track over toes", "Chest up throughout", "Drive through whole foot"]
+    },
+    {
+      "id": "e9",
+      "name": "Romanian Deadlift",
+      "category": "Legs",
+      "primaryMuscle": "Hamstrings",
+      "secondaryMuscles": ["Glutes", "Erector Spinae"],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell",
+      "description": "Hamstring-dominant hinge movement. Feel deep stretch at bottom.",
+      "tips": ["Push hips back not down", "Feel hamstring stretch", "Soft knee bend throughout"]
+    },
+    {
+      "id": "e10",
+      "name": "Leg Press",
+      "category": "Legs",
+      "primaryMuscle": "Quadriceps",
+      "secondaryMuscles": ["Glutes", "Hamstrings"],
+      "difficulty": "Beginner",
+      "equipment": "Machine",
+      "description": "Machine-based quad dominant movement. Allows heavier loading with less technical demand.",
+      "tips": ["Don't lock knees at top", "Full range of motion", "Feet shoulder width apart"]
+    },
+    {
+      "id": "e11",
+      "name": "Lunges",
+      "category": "Legs",
+      "primaryMuscle": "Quadriceps",
+      "secondaryMuscles": ["Glutes", "Hamstrings", "Core"],
+      "difficulty": "Beginner",
+      "equipment": "Bodyweight / Dumbbells",
+      "description": "Unilateral leg exercise for balanced strength and muscle development.",
+      "tips": ["Keep torso upright", "Front knee stays behind toes", "Full step length"]
+    },
+    {
+      "id": "e12",
+      "name": "Overhead Press",
+      "category": "Shoulders",
+      "primaryMuscle": "Anterior Deltoid",
+      "secondaryMuscles": ["Lateral Deltoid", "Triceps", "Upper Traps"],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell",
+      "description": "Compound pressing movement for total shoulder development and strength.",
+      "tips": ["Tuck chin for bar path", "Full lockout at top", "Brace abs throughout"]
+    },
+    {
+      "id": "e13",
+      "name": "Lateral Raise",
+      "category": "Shoulders",
+      "primaryMuscle": "Lateral Deltoid",
+      "secondaryMuscles": ["Anterior Deltoid", "Supraspinatus"],
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells",
+      "description": "Isolation exercise for shoulder width. Raise arms to shoulder height.",
+      "tips": ["Slight forward lean", "Lead with elbows not wrists", "Control the descent"]
+    },
+    {
+      "id": "e14",
+      "name": "Face Pull",
+      "category": "Shoulders",
+      "primaryMuscle": "Rear Deltoid",
+      "secondaryMuscles": ["Rotator Cuff", "Rhomboids", "Middle Trapezius"],
+      "difficulty": "Beginner",
+      "equipment": "Cable Machine",
+      "description": "Essential for shoulder health and rear delt development. Pull rope to face level.",
+      "tips": ["High pulley attachment", "Pull to ears height", "Externally rotate at peak"]
+    },
+    {
+      "id": "e15",
+      "name": "Bicep Curl",
+      "category": "Arms",
+      "primaryMuscle": "Biceps Brachii",
+      "secondaryMuscles": ["Brachialis", "Brachioradialis"],
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells / Barbell",
+      "description": "Classic bicep isolation exercise. Curl weight from full extension to peak contraction.",
+      "tips": ["Keep elbows fixed at sides", "Supinate at top", "Full range of motion"]
+    },
+    {
+      "id": "e16",
+      "name": "Tricep Pushdown",
+      "category": "Arms",
+      "primaryMuscle": "Triceps Brachii",
+      "secondaryMuscles": [],
+      "difficulty": "Beginner",
+      "equipment": "Cable Machine",
+      "description": "Cable isolation for triceps. Lock elbows and extend fully.",
+      "tips": ["Keep elbows tucked", "Full extension at bottom", "Control the return"]
+    },
+    {
+      "id": "e17",
+      "name": "Hammer Curl",
+      "category": "Arms",
+      "primaryMuscle": "Brachialis",
+      "secondaryMuscles": ["Biceps Brachii", "Brachioradialis"],
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells",
+      "description": "Neutral grip curl targeting brachialis for arm thickness.",
+      "tips": ["Neutral grip throughout", "Controlled movement", "Alternate arms or together"]
+    },
+    {
+      "id": "e18",
+      "name": "Skull Crusher",
+      "category": "Arms",
+      "primaryMuscle": "Triceps Brachii",
+      "secondaryMuscles": [],
+      "difficulty": "Intermediate",
+      "equipment": "Barbell / EZ Bar",
+      "description": "Lying tricep extension for mass and strength. Lower bar to forehead with control.",
+      "tips": ["Keep elbows pointing up", "Don't flare elbows out", "Full extension at top"]
+    },
+    {
+      "id": "e19",
+      "name": "Plank",
+      "category": "Core",
+      "primaryMuscle": "Transverse Abdominis",
+      "secondaryMuscles": ["Rectus Abdominis", "Obliques", "Glutes"],
+      "difficulty": "Beginner",
+      "equipment": "Bodyweight",
+      "description": "Isometric core stability exercise. Hold position with straight body from head to heels.",
+      "tips": ["Neutral spine position", "Don't let hips sag", "Breathe steadily throughout"]
+    },
+    {
+      "id": "e20",
+      "name": "Hanging Leg Raise",
+      "category": "Core",
+      "primaryMuscle": "Rectus Abdominis",
+      "secondaryMuscles": ["Hip Flexors", "Obliques"],
+      "difficulty": "Intermediate",
+      "equipment": "Pull-Up Bar",
+      "description": "Advanced core exercise. Hang from bar and raise legs to 90° or higher.",
+      "tips": ["Control the swing", "Posterior pelvic tilt at top", "Slow descent"]
+    },
+    {
+      "id": "e21",
+      "name": "Ab Wheel Rollout",
+      "category": "Core",
+      "primaryMuscle": "Rectus Abdominis",
+      "secondaryMuscles": ["Transverse Abdominis", "Lats"],
+      "difficulty": "Advanced",
+      "equipment": "Ab Wheel",
+      "description": "Extreme anti-extension core exercise. Roll out to near-horizontal and return.",
+      "tips": ["Start with partial range", "Keep hips inline", "Exhale on return"]
+    },
+    {
+      "id": "e22",
+      "name": "Russian Twist",
+      "category": "Core",
+      "primaryMuscle": "Obliques",
+      "secondaryMuscles": ["Rectus Abdominis", "Hip Flexors"],
+      "difficulty": "Beginner",
+      "equipment": "Bodyweight / Plate",
+      "description": "Rotational core exercise. Sit at 45°, rotate torso side to side.",
+      "tips": ["Lift feet for more challenge", "Rotate from torso not arms", "Keep chest up"]
+    },
+    {
+      "id": "e23",
+      "name": "Dips",
+      "category": "Chest",
+      "primaryMuscle": "Pectoralis Major",
+      "secondaryMuscles": ["Triceps", "Anterior Deltoid"],
+      "difficulty": "Intermediate",
+      "equipment": "Parallel Bars",
+      "description": "Bodyweight pushing movement for chest and triceps. Lean forward for chest emphasis.",
+      "tips": ["Lean forward for chest", "Go below parallel", "Control the descent"]
+    },
+    {
+      "id": "e24",
+      "name": "T-Bar Row",
+      "category": "Back",
+      "primaryMuscle": "Latissimus Dorsi",
+      "secondaryMuscles": ["Rhomboids", "Biceps", "Rear Deltoid"],
+      "difficulty": "Intermediate",
+      "equipment": "T-Bar / Landmine",
+      "description": "Powerful compound back exercise for thickness and width.",
+      "tips": ["Chest supported variation reduces injury risk", "Pull elbows back and up", "Squeeze at top"]
+    }
+  ],
+
+  "seedWorkouts": [
+    {
+      "id": "w1",
+      "name": "Push Day A",
+      "date": "2025-01-13",
+      "duration": 65,
+      "notes": "Great session, bench felt strong today.",
+      "exercises": [
+        {
+          "exerciseId": "e1",
+          "name": "Bench Press",
+          "category": "Chest",
+          "sets": [
+            { "reps": 5, "weight": 100 },
+            { "reps": 5, "weight": 100 },
+            { "reps": 4, "weight": 100 }
+          ]
+        },
+        {
+          "exerciseId": "e12",
+          "name": "Overhead Press",
+          "category": "Shoulders",
+          "sets": [
+            { "reps": 8, "weight": 60 },
+            { "reps": 7, "weight": 60 },
+            { "reps": 6, "weight": 60 }
+          ]
+        },
+        {
+          "exerciseId": "e16",
+          "name": "Tricep Pushdown",
+          "category": "Arms",
+          "sets": [
+            { "reps": 12, "weight": 35 },
+            { "reps": 12, "weight": 35 },
+            { "reps": 10, "weight": 35 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "name": "Pull Day A",
+      "date": "2025-01-14",
+      "duration": 70,
+      "notes": "Deadlift PR attempt — hit 180kg!",
+      "exercises": [
+        {
+          "exerciseId": "e4",
+          "name": "Deadlift",
+          "category": "Back",
+          "sets": [
+            { "reps": 3, "weight": 160 },
+            { "reps": 3, "weight": 170 },
+            { "reps": 1, "weight": 180 }
+          ]
+        },
+        {
+          "exerciseId": "e5",
+          "name": "Pull-Up",
+          "category": "Back",
+          "sets": [
+            { "reps": 10, "weight": 0 },
+            { "reps": 9, "weight": 0 },
+            { "reps": 8, "weight": 0 }
+          ]
+        },
+        {
+          "exerciseId": "e15",
+          "name": "Bicep Curl",
+          "category": "Arms",
+          "sets": [
+            { "reps": 10, "weight": 20 },
+            { "reps": 10, "weight": 20 },
+            { "reps": 8, "weight": 22 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "name": "Leg Day A",
+      "date": "2025-01-15",
+      "duration": 75,
+      "notes": "Legs are cooked. 200kg squat goal getting closer.",
+      "exercises": [
+        {
+          "exerciseId": "e8",
+          "name": "Squat",
+          "category": "Legs",
+          "sets": [
+            { "reps": 5, "weight": 140 },
+            { "reps": 5, "weight": 140 },
+            { "reps": 3, "weight": 150 }
+          ]
+        },
+        {
+          "exerciseId": "e9",
+          "name": "Romanian Deadlift",
+          "category": "Legs",
+          "sets": [
+            { "reps": 10, "weight": 80 },
+            { "reps": 10, "weight": 80 },
+            { "reps": 10, "weight": 80 }
+          ]
+        },
+        {
+          "exerciseId": "e10",
+          "name": "Leg Press",
+          "category": "Legs",
+          "sets": [
+            { "reps": 12, "weight": 180 },
+            { "reps": 12, "weight": 200 },
+            { "reps": 10, "weight": 200 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "name": "Push Day B",
+      "date": "2025-01-17",
+      "duration": 60,
+      "notes": "Light day, focused on form.",
+      "exercises": [
+        {
+          "exerciseId": "e2",
+          "name": "Incline Dumbbell Press",
+          "category": "Chest",
+          "sets": [
+            { "reps": 10, "weight": 30 },
+            { "reps": 10, "weight": 32 },
+            { "reps": 8, "weight": 34 }
+          ]
+        },
+        {
+          "exerciseId": "e3",
+          "name": "Cable Fly",
+          "category": "Chest",
+          "sets": [
+            { "reps": 15, "weight": 15 },
+            { "reps": 15, "weight": 15 },
+            { "reps": 12, "weight": 17.5 }
+          ]
+        },
+        {
+          "exerciseId": "e13",
+          "name": "Lateral Raise",
+          "category": "Shoulders",
+          "sets": [
+            { "reps": 15, "weight": 12 },
+            { "reps": 15, "weight": 12 },
+            { "reps": 12, "weight": 14 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "name": "Full Body Power",
+      "date": "2025-01-19",
+      "duration": 80,
+      "notes": "Saturday session. Mixed everything in.",
+      "exercises": [
+        {
+          "exerciseId": "e8",
+          "name": "Squat",
+          "category": "Legs",
+          "sets": [
+            { "reps": 5, "weight": 120 },
+            { "reps": 5, "weight": 130 }
+          ]
+        },
+        {
+          "exerciseId": "e1",
+          "name": "Bench Press",
+          "category": "Chest",
+          "sets": [
+            { "reps": 5, "weight": 95 },
+            { "reps": 5, "weight": 95 }
+          ]
+        },
+        {
+          "exerciseId": "e4",
+          "name": "Deadlift",
+          "category": "Back",
+          "sets": [
+            { "reps": 3, "weight": 150 },
+            { "reps": 3, "weight": 155 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "name": "Arms & Core",
+      "date": "2025-01-20",
+      "duration": 50,
+      "notes": "Quick hypertrophy session.",
+      "exercises": [
+        {
+          "exerciseId": "e15",
+          "name": "Bicep Curl",
+          "category": "Arms",
+          "sets": [
+            { "reps": 12, "weight": 18 },
+            { "reps": 12, "weight": 18 },
+            { "reps": 10, "weight": 20 }
+          ]
+        },
+        {
+          "exerciseId": "e18",
+          "name": "Skull Crusher",
+          "category": "Arms",
+          "sets": [
+            { "reps": 12, "weight": 30 },
+            { "reps": 10, "weight": 32 },
+            { "reps": 10, "weight": 32 }
+          ]
+        },
+        {
+          "exerciseId": "e19",
+          "name": "Plank",
+          "category": "Core",
+          "sets": [
+            { "reps": 60, "weight": 0 },
+            { "reps": 60, "weight": 0 }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "weeklyVolumeData": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "datasets": [
+      {
+        "label": "Volume (kg)",
+        "data": [4200, 0, 5800, 3100, 4900, 6200, 0]
+      }
+    ]
+  },
+
+  "monthlyFrequencyData": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "datasets": [
+      {
+        "label": "Workouts",
+        "data": [14, 16, 12, 18, 20, 15]
+      }
+    ]
+  },
+
+ "defaultUser": {
+  "name": "",
+  "age": 0,
+  "weight": 0,
+  "height": 0,
+  "goal": "",
+  "experience": "",
+  "weeklyTarget": 0
+},
+
+  "dailyTips": [
+    "Progressive overload is the #1 driver of muscle growth. Add weight or reps each week.",
+    "Sleep 7–9 hours per night — growth hormone peaks during deep sleep.",
+    "Protein synthesis stays elevated for 48–72 hours after training. Eat enough protein!",
+    "Deload every 4–6 weeks. Recovery is when you actually grow stronger.",
+    "Mind-muscle connection matters. Slow the eccentric phase to maximize tension.",
+    "Hydration affects performance by up to 10%. Drink 0.5–1L before training.",
+    "Compound movements first, isolation last. Prioritize multi-joint exercises.",
+    "Consistency over perfection. A mediocre workout beats no workout every time."
+  ]
+}

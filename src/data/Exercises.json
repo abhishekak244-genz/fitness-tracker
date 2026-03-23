@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ex1",
+    "name": "Bench Press",
+    "category": "Chest",
+    "muscles": ["Pectorals", "Triceps", "Front Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Barbell",
+    "description": "Classic compound chest exercise performed on a flat bench pressing a barbell upward.",
+    "tips": ["Keep feet flat on floor", "Retract shoulder blades", "Control the descent", "Bar to mid-chest"]
+  },
+  {
+    "id": "ex2",
+    "name": "Incline Dumbbell Press",
+    "category": "Chest",
+    "muscles": ["Upper Pectorals", "Triceps", "Front Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Dumbbells",
+    "description": "Incline press targeting upper chest with dumbbells for greater range of motion.",
+    "tips": ["Set bench to 30-45°", "Neutral wrist grip", "Full range of motion", "Squeeze at top"]
+  },
+  {
+    "id": "ex3",
+    "name": "Push-Ups",
+    "category": "Chest",
+    "muscles": ["Pectorals", "Triceps", "Core"],
+    "difficulty": "Beginner",
+    "equipment": "Bodyweight",
+    "description": "Foundational bodyweight push movement working chest, triceps and core.",
+    "tips": ["Keep body rigid", "Elbows at 45°", "Full range of motion", "Breathe consistently"]
+  },
+  {
+    "id": "ex4",
+    "name": "Cable Fly",
+    "category": "Chest",
+    "muscles": ["Pectorals", "Front Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Cable Machine",
+    "description": "Isolation movement focusing on chest squeeze and stretch through cable resistance.",
+    "tips": ["Slight elbow bend", "Feel the stretch", "Control throughout", "Squeeze at center"]
+  },
+  {
+    "id": "ex5",
+    "name": "Pull-Ups",
+    "category": "Back",
+    "muscles": ["Latissimus Dorsi", "Biceps", "Rear Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Pull-Up Bar",
+    "description": "King of back exercises — vertical pull engaging the full lat muscle.",
+    "tips": ["Full hang start", "Drive elbows down", "Chest to bar", "Controlled descent"]
+  },
+  {
+    "id": "ex6",
+    "name": "Barbell Row",
+    "category": "Back",
+    "muscles": ["Latissimus Dorsi", "Rhomboids", "Biceps", "Rear Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Barbell",
+    "description": "Heavy compound row that builds thick back muscles and overall pulling strength.",
+    "tips": ["Hinge at hips", "Keep back flat", "Pull to lower chest", "Squeeze shoulder blades"]
+  },
+  {
+    "id": "ex7",
+    "name": "Seated Cable Row",
+    "category": "Back",
+    "muscles": ["Latissimus Dorsi", "Rhomboids", "Biceps"],
+    "difficulty": "Beginner",
+    "equipment": "Cable Machine",
+    "description": "Controlled horizontal rowing movement with constant cable tension.",
+    "tips": ["Sit upright", "Pull to navel", "Retract scapulas", "Slow eccentric"]
+  },
+  {
+    "id": "ex8",
+    "name": "Deadlift",
+    "category": "Back",
+    "muscles": ["Erector Spinae", "Glutes", "Hamstrings", "Traps"],
+    "difficulty": "Advanced",
+    "equipment": "Barbell",
+    "description": "The ultimate compound lift engaging nearly every muscle in the posterior chain.",
+    "tips": ["Hip hinge pattern", "Bar over mid-foot", "Chest up, hips back", "Drive floor away"]
+  },
+  {
+    "id": "ex9",
+    "name": "Squat",
+    "category": "Legs",
+    "muscles": ["Quadriceps", "Glutes", "Hamstrings", "Core"],
+    "difficulty": "Intermediate",
+    "equipment": "Barbell",
+    "description": "The foundational lower body compound movement for strength and mass.",
+    "tips": ["Feet shoulder-width", "Knees track toes", "Break parallel", "Drive through heels"]
+  },
+  {
+    "id": "ex10",
+    "name": "Romanian Deadlift",
+    "category": "Legs",
+    "muscles": ["Hamstrings", "Glutes", "Erector Spinae"],
+    "difficulty": "Intermediate",
+    "equipment": "Barbell",
+    "description": "Hip hinge movement targeting hamstrings and glutes through a deep stretch.",
+    "tips": ["Soft knee bend", "Push hips back", "Feel hamstring stretch", "Keep bar close"]
+  },
+  {
+    "id": "ex11",
+    "name": "Leg Press",
+    "category": "Legs",
+    "muscles": ["Quadriceps", "Glutes", "Hamstrings"],
+    "difficulty": "Beginner",
+    "equipment": "Machine",
+    "description": "Machine-based compound leg press with adjustable foot placement for targeting.",
+    "tips": ["Feet hip-width", "Don't lock knees", "Full range of motion", "Control the weight"]
+  },
+  {
+    "id": "ex12",
+    "name": "Walking Lunges",
+    "category": "Legs",
+    "muscles": ["Quadriceps", "Glutes", "Hamstrings", "Balance"],
+    "difficulty": "Beginner",
+    "equipment": "Bodyweight / Dumbbells",
+    "description": "Unilateral leg exercise improving balance, coordination and leg development.",
+    "tips": ["90° knee angles", "Upright torso", "Long stride", "Push through front heel"]
+  },
+  {
+    "id": "ex13",
+    "name": "Overhead Press",
+    "category": "Shoulders",
+    "muscles": ["Front Deltoids", "Lateral Deltoids", "Triceps", "Traps"],
+    "difficulty": "Intermediate",
+    "equipment": "Barbell",
+    "description": "Vertical pressing movement for building shoulder mass and overhead strength.",
+    "tips": ["Bar from rack", "Grip just outside shoulders", "Press over head", "Lock out at top"]
+  },
+  {
+    "id": "ex14",
+    "name": "Lateral Raises",
+    "category": "Shoulders",
+    "muscles": ["Lateral Deltoids"],
+    "difficulty": "Beginner",
+    "equipment": "Dumbbells",
+    "description": "Isolation exercise for building shoulder width by targeting lateral deltoids.",
+    "tips": ["Slight elbow bend", "Lead with elbows", "Raise to shoulder height", "Slow descent"]
+  },
+  {
+    "id": "ex15",
+    "name": "Face Pulls",
+    "category": "Shoulders",
+    "muscles": ["Rear Deltoids", "Rotator Cuff", "Rhomboids"],
+    "difficulty": "Beginner",
+    "equipment": "Cable Machine",
+    "description": "Rear delt and rotator cuff exercise critical for shoulder health and posture.",
+    "tips": ["Rope attachment", "Pull to face", "External rotation", "High cable position"]
+  },
+  {
+    "id": "ex16",
+    "name": "Arnold Press",
+    "category": "Shoulders",
+    "muscles": ["All Deltoid Heads", "Triceps"],
+    "difficulty": "Intermediate",
+    "equipment": "Dumbbells",
+    "description": "Rotating shoulder press invented by Arnold Schwarzenegger hitting all three delt heads.",
+    "tips": ["Start palms facing you", "Rotate as you press", "Full rotation", "Controlled descent"]
+  },
+  {
+    "id": "ex17",
+    "name": "Barbell Curl",
+    "category": "Arms",
+    "muscles": ["Biceps", "Brachialis"],
+    "difficulty": "Beginner",
+    "equipment": "Barbell",
+    "description": "Classic bicep curl building arm size and peak through direct isolation.",
+    "tips": ["Elbows fixed", "Full range", "Squeeze at top", "Don't swing body"]
+  },
+  {
+    "id": "ex18",
+    "name": "Tricep Dips",
+    "category": "Arms",
+    "muscles": ["Triceps", "Chest", "Front Deltoids"],
+    "difficulty": "Intermediate",
+    "equipment": "Parallel Bars",
+    "description": "Bodyweight compound movement heavily targeting triceps with chest involvement.",
+    "tips": ["Slight forward lean", "Elbows back", "Full range", "Lock out at top"]
+  },
+  {
+    "id": "ex19",
+    "name": "Hammer Curls",
+    "category": "Arms",
+    "muscles": ["Brachialis", "Biceps", "Brachioradialis"],
+    "difficulty": "Beginner",
+    "equipment": "Dumbbells",
+    "description": "Neutral grip curl targeting brachialis for arm thickness and forearm development.",
+    "tips": ["Neutral grip throughout", "Controlled tempo", "Alternate arms", "No swinging"]
+  },
+  {
+    "id": "ex20",
+    "name": "Skull Crushers",
+    "category": "Arms",
+    "muscles": ["Triceps Long Head", "Triceps Medial Head"],
+    "difficulty": "Intermediate",
+    "equipment": "EZ Bar / Barbell",
+    "description": "Lying tricep extension for building tricep mass especially the long head.",
+    "tips": ["Lower to forehead", "Elbows fixed", "Extend fully", "Use EZ bar for wrists"]
+  },
+  {
+    "id": "ex21",
+    "name": "Plank",
+    "category": "Core",
+    "muscles": ["Transverse Abdominis", "Rectus Abdominis", "Obliques"],
+    "difficulty": "Beginner",
+    "equipment": "Bodyweight",
+    "description": "Isometric core hold building deep core stability and endurance.",
+    "tips": ["Straight line head to heels", "Brace core hard", "Breathe normally", "No sagging hips"]
+  },
+  {
+    "id": "ex22",
+    "name": "Cable Crunches",
+    "category": "Core",
+    "muscles": ["Rectus Abdominis", "Obliques"],
+    "difficulty": "Beginner",
+    "equipment": "Cable Machine",
+    "description": "Weighted ab crunch with constant cable tension for direct core hypertrophy.",
+    "tips": ["Hips stay still", "Crunch with abs", "Rope by ears", "Full range of motion"]
+  },
+  {
+    "id": "ex23",
+    "name": "Russian Twists",
+    "category": "Core",
+    "muscles": ["Obliques", "Rectus Abdominis"],
+    "difficulty": "Beginner",
+    "equipment": "Bodyweight / Plate",
+    "description": "Rotational core exercise targeting obliques for waist definition.",
+    "tips": ["Feet elevated", "Rotate fully each side", "Keep chest up", "Add weight for progression"]
+  },
+  {
+    "id": "ex24",
+    "name": "Hanging Leg Raises",
+    "category": "Core",
+    "muscles": ["Rectus Abdominis", "Hip Flexors", "Obliques"],
+    "difficulty": "Intermediate",
+    "equipment": "Pull-Up Bar",
+    "description": "Advanced core exercise building lower ab strength and hip flexor stability.",
+    "tips": ["Hang fully", "No swinging", "Raise legs to parallel", "Control the descent"]
+  }
+]

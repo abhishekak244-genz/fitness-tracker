@@ -1,0 +1,30 @@
+{
+  "categories": ["Protein", "Carbs", "Fats", "Vegetables", "Fruits", "Dairy", "Supplements"],
+  "foods": [
+    { "id": "f1", "name": "Chicken Breast (100g)", "category": "Protein", "calories": 165, "protein": 31, "carbs": 0, "fat": 3.6, "icon": "🍗" },
+    { "id": "f2", "name": "Salmon (100g)", "category": "Protein", "calories": 208, "protein": 20, "carbs": 0, "fat": 13, "icon": "🐟" },
+    { "id": "f3", "name": "Eggs (2 large)", "category": "Protein", "calories": 155, "protein": 13, "carbs": 1.1, "fat": 11, "icon": "🥚" },
+    { "id": "f4", "name": "Greek Yogurt (200g)", "category": "Dairy", "calories": 130, "protein": 17, "carbs": 9, "fat": 0.5, "icon": "🥛" },
+    { "id": "f5", "name": "Whey Protein Shake", "category": "Supplements", "calories": 120, "protein": 25, "carbs": 3, "fat": 1.5, "icon": "💊" },
+    { "id": "f6", "name": "Brown Rice (100g cooked)", "category": "Carbs", "calories": 111, "protein": 2.6, "carbs": 23, "fat": 0.9, "icon": "🍚" },
+    { "id": "f7", "name": "Sweet Potato (medium)", "category": "Carbs", "calories": 103, "protein": 2.3, "carbs": 24, "fat": 0.1, "icon": "🍠" },
+    { "id": "f8", "name": "Oats (80g dry)", "category": "Carbs", "calories": 307, "protein": 10.5, "carbs": 52, "fat": 5.3, "icon": "🥣" },
+    { "id": "f9", "name": "Whole Wheat Bread (2 slices)", "category": "Carbs", "calories": 138, "protein": 7.4, "carbs": 27, "fat": 2, "icon": "🍞" },
+    { "id": "f10", "name": "Banana (medium)", "category": "Fruits", "calories": 89, "protein": 1.1, "carbs": 23, "fat": 0.3, "icon": "🍌" },
+    { "id": "f11", "name": "Apple (medium)", "category": "Fruits", "calories": 72, "protein": 0.4, "carbs": 19, "fat": 0.2, "icon": "🍎" },
+    { "id": "f12", "name": "Avocado (half)", "category": "Fats", "calories": 120, "protein": 1.5, "carbs": 6, "fat": 11, "icon": "🥑" },
+    { "id": "f13", "name": "Almonds (30g)", "category": "Fats", "calories": 173, "protein": 6, "carbs": 6, "fat": 15, "icon": "🥜" },
+    { "id": "f14", "name": "Olive Oil (1 tbsp)", "category": "Fats", "calories": 119, "protein": 0, "carbs": 0, "fat": 13.5, "icon": "🫒" },
+    { "id": "f15", "name": "Broccoli (100g)", "category": "Vegetables", "calories": 34, "protein": 2.8, "carbs": 7, "fat": 0.4, "icon": "🥦" },
+    { "id": "f16", "name": "Spinach (100g)", "category": "Vegetables", "calories": 23, "protein": 2.9, "carbs": 3.6, "fat": 0.4, "icon": "🌿" },
+    { "id": "f17", "name": "Tuna Can (185g)", "category": "Protein", "calories": 179, "protein": 39, "carbs": 0, "fat": 1.4, "icon": "🥫" },
+    { "id": "f18", "name": "Cottage Cheese (200g)", "category": "Dairy", "calories": 162, "protein": 22, "carbs": 6, "fat": 5, "icon": "🧀" },
+    { "id": "f19", "name": "Peanut Butter (2 tbsp)", "category": "Fats", "calories": 188, "protein": 8, "carbs": 6, "fat": 16, "icon": "🥜" },
+    { "id": "f20", "name": "Quinoa (100g cooked)", "category": "Carbs", "calories": 120, "protein": 4.4, "carbs": 21.3, "fat": 1.9, "icon": "🌾" }
+  ],
+  "calorieGoals": {
+    "lose_weight": { "label": "Weight Loss", "deficit": -500, "proteinRatio": 0.35, "carbRatio": 0.35, "fatRatio": 0.30 },
+    "build_muscle": { "label": "Muscle Gain", "surplus": 300, "proteinRatio": 0.30, "carbRatio": 0.50, "fatRatio": 0.20 },
+    "maintain": { "label": "Maintenance", "adjustment": 0, "proteinRatio": 0.30, "carbRatio": 0.40, "fatRatio": 0.30 }
+  }
+}
