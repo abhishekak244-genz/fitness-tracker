@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useWorkout } from '../context/WorkoutContext';
+import { useNavigate } from 'react-router-dom';
 import { statsApi } from '../api/allFitnessApi';
 // Hardcoded — no workouts.json dependency
 const BODY_TYPES = [
@@ -19,6 +20,7 @@ import {
 
 export default function Profile() {
   const { user, workouts, updateUser, resetAll, getStreak, getTotalVolume, getPersonalRecords } = useWorkout();
+  const navigate = useNavigate();
   const [editing, setEditing] = useState(false);
   const [form, setForm] = useState({ ...user });
   const [saved, setSaved] = useState(false);
@@ -37,6 +39,8 @@ export default function Profile() {
   const handleReset = async () => {
     if (window.confirm('⚠️ This will delete ALL your data and reset the app. Are you sure?')) {
       await resetAll();
+      // Redirect to setup so next person can enter their details
+      navigate('/');
     }
   };
 

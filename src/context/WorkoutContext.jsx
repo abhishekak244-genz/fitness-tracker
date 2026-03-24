@@ -8,7 +8,7 @@ const initialState = {
   workouts:         [],
   nutrition:        [],
   isSetupComplete:  false,
-  loading:          true,   
+  loading:          true,   // true while fetching from JSON server
   error:            null,
 };
 
@@ -78,8 +78,25 @@ export function WorkoutProvider({ children }) {
   // ─── Actions ──────────────────────────────────────────────────────
 
   const setupUser = useCallback(async (userData) => {
+    // ── Wipe ALL existing data before saving new user ──────────────
+    // This ensures a new person never sees the previous person's data
+    try {
+      const [oldWorkouts, oldNutrition] = await Promise.all([
+        workoutApi.getAll(),
+        nutritionApi.getAll(),
+      ]);
+      await Promise.allSettled([
+        userApi.delete(),
+        ...oldWorkouts.map(w  => workoutApi.delete(w.id)),
+        ...oldNutrition.map(n => nutritionApi.delete(n.id)),
+      ]);
+    } catch { /* ignore cleanup errors */ }
+
+    // ── Now create the fresh user ──────────────────────────────────
     const saved = await userApi.create(userData);
-    dispatch({ type: 'SET_USER', payload: saved });
+    dispatch({ type: 'SET_USER',      payload: saved });
+    dispatch({ type: 'LOAD_WORKOUTS', payload: []   });
+    dispatch({ type: 'LOAD_NUTRITION',payload: []   });
     return saved;
   }, []);
 
